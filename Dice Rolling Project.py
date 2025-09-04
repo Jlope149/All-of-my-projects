@@ -3,7 +3,7 @@ import random
 running = True
 
 while running:
-    roll = input("Would you like to roll the dice? (y/n) ")
+    roll = input("Would you like to roll the dice? (y/n) ").lower()
     if roll == "y":
         die1 = random.randint(1,6)
         die2 = random.randint(1,6)
